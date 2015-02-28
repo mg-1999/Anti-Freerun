@@ -29,6 +29,7 @@ public class AntiFreerun extends JavaPlugin {
         this.getConfig().addDefault("message.teleportback", "Don't go freerunning!");
         this.getConfig().addDefault("blocks-that-get-freerun-protection", Arrays.asList("LEAVES", "LEAVES_2", "FENCE", "FENCE_GATE", "COBBLE_WALL"));
         this.getConfig().options().copyDefaults(true);
+        this.saveConfig();
     }
 
     public void increasePlayersBreachCount(Player p) {
