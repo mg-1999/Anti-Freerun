@@ -13,8 +13,8 @@ public class AntiFreerun extends JavaPlugin {
     
     @Override
     public void onEnable() {
-        PlayerListener playerListener = new PlayerListener(this);
         setupConfig();
+        PlayerListener playerListener = new PlayerListener(this);
     }
 
     @Override
