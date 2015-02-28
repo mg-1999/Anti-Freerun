@@ -1,0 +1,12 @@
+name: Anti-Freerun
+version: 1.0.1
+main: net.voxelvoid.antifreerun.AntiFreerun
+
+permissions:
+    freerun.preventwarpback:
+        description: Prevents warpback? I guess?
+        default: true
+        
+    freerun.allow:
+        description: Maybe allows you to freerun? I am not sure
+        default: op
